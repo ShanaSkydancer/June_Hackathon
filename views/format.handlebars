@@ -1,12 +1,28 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Story Type</title>
-  </head>
-  <body>
-    <div class="">
-      
+
+<head>
+  <meta charset="utf-8">
+  <title>Story Type</title>
+</head>
+
+<body>
+  <div class="">
+
+  </div>
+
+  {{#if messages.info}}
+    <div class="info">
+      {{messages.info}}
     </div>
-  </body>
+  {{/if}}
+
+  {{#if messages.error}}
+    <div class="error">
+      {{messages.error}}
+    </div>
+  {{/if}}
+
+</body>
+
 </html>
