@@ -1,5 +1,7 @@
 form {
-background-color: black;
+    background-color: black;
+    margin: auto;
+    height: 100%;
 }
 .jumoBg{
   margin-top: -15px;
