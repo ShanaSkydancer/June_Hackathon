@@ -2,11 +2,22 @@
 var express = require('express');
 var exphbs  = require('express-handlebars');
 var body_parser = require('body-parser');
+var session = require('express-session');
+var flash = require('express-flash');
 var app = express();
 app.use(body_parser.urlencoded({ extended: false}));
 app.engine('handlebars', exphbs({defaultLayout: 'main'}));
 app.set('view engine', 'handlebars');
 app.use(express.static('public'));
+
+app.use(session({
+  secret: 'keyboard cat',
+  resave: false,
+  saveUninitialized: true,
+  cookie: { secure: true }
+}));
+
+app.use(flash());
 
 app.listen(9000, function () {
 	console.log('Server running on port 9000');
@@ -21,6 +32,12 @@ app.get('/', function (req, res) {
 app.post('/category', function (req, res) {
     res.render('category');
 });
+
+app.post('/reasons', function (req, res){
+	req.flash('info', 'All categories have been selected!');
+	req.flash('error', 'Please select the categories!');
+	res.render('reasons');
+}
 
 //story format page
 app.post('/format', function (req, res) {
