@@ -1,58 +1,60 @@
 <!DOCTYPE html>
 <html>
-<<<<<<< HEAD
-  <head>
-    <meta charset="utf-8">
-    <title>Story Type</title>
-  </head>
-  <body>
-    <div class="container">
-    <div class="row">
-      <!-- text media format -->
-      <div class=" glyphicon glyphicon-pencil col-md-6 mediaFormat">
-
-      </div>
-      <!-- videos media format -->
-      <div class=" glyphicon glyphicon-pencil col-md-6 mediaFormat">
-
-      </div>
-    </div>
-    <!-- row 2 of media formats  -->
-    <div class="row">
-      <!-- images media format -->
-      <div class="glyphicon glyphicon-facetime-video col-md-6 mediaFormat">
-
-      </div>
-      <!-- audio media format -->
-      <div class="glyphicon glyphicon-user col-md-6 mediaFormat">
-
-      </div>
-    </div>
-=======
-
-<head>
+ <head>
   <meta charset="utf-8">
   <title>Story Type</title>
-</head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="/css/bootstrap-theme.min.css" />
+  <link rel="stylesheet" href="/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="/css/app.css" />
+  </head>
 
-<body>
-  <div class="">
+  <body>
+    <div class="container">
+      <div class="row">
+        <!-- text media format -->
+        <div class=" glyphicon glyphicon-pencil col-md-6 mediaFormat">
 
-  </div>
+        </div>
+        <!-- videos media format -->
+        <div class=" glyphicon glyphicon-pencil col-md-6 mediaFormat">
 
-  {{#if messages.info}}
-    <div class="info">
-      {{messages.info}}
->>>>>>> b7f1d8dd9cbc7ef2fcbdb268de456b6c222c09c9
-    </div>
-  {{/if}}
+        </div>
+      </div>
+      <!-- row 2 of media formats  -->
+      <div class="row">
+        <!-- images media format -->
+        <div class="glyphicon glyphicon-facetime-video col-md-6 mediaFormat">
 
-  {{#if messages.error}}
-    <div class="error">
-      {{messages.error}}
-    </div>
-  {{/if}}
+        </div>
+        <!-- audio media format -->
+        <div class="fa fa-microphone col-md-6 mediaFormat">
 
-</body>
+        </div>
+      </div>
+
+      <head>
+        <meta charset="utf-8">
+        <title>Story Type</title>
+      </head>
+
+      <body>
+        <div class="">
+
+        </div>
+
+        {{#if messages.info}}
+          <div class="info">
+            {{messages.info}} >>>>>>> b7f1d8dd9cbc7ef2fcbdb268de456b6c222c09c9
+          </div>
+        {{/if}}
+
+        {{#if messages.error}}
+          <div class="error">
+            {{messages.error}}
+          </div>
+        {{/if}}
+
+      </body>
 
 </html>

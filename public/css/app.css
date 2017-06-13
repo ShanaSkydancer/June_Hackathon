@@ -1,13 +1,8 @@
 form {
-<<<<<<< HEAD
 background-color: black;
 height: 100%;
 margin: auto;
-=======
-    background-color: black;
-    margin: auto;
-    height: 100%;
->>>>>>> b7f1d8dd9cbc7ef2fcbdb268de456b6c222c09c9
+  background-repeat: no-repeat;
 }
 .container-fluid {
 background-color: lightgrey;
@@ -52,15 +47,11 @@ h3 > a:hover {
   color: white;
   text-decoration: none;
 }
-<<<<<<< HEAD
-.mediaFormat {
 
-=======
 .info {
   color: green;
 }
 
 .error {
   color: red;
->>>>>>> b7f1d8dd9cbc7ef2fcbdb268de456b6c222c09c9
 }
