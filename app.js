@@ -40,7 +40,7 @@ app.post('/reasons', function (req, res){
 });
 
 //story format page
-app.post('/format', function (req, res) {
+app.get('/format', function (req, res) {
     res.render('format');
 });
 
