@@ -7,10 +7,10 @@ Jumo admin will them be able to access the stories via specific categories.
 
 ## Who:
 Persona 1:
-Jumo admin
+Umar the Local businessman
 
 Persona 2:
-Jumo user
+Allan the Jumo employee
 
 ## What Information/Data:
 The Jumo admin will be able to filter through stories and access data based off of what they are looking for from a category and keywords.
@@ -20,7 +20,7 @@ By allowing Jumo users to tell their story in different platforms, Jumo will be 
 
 
 ### Team Awesome members:
-1. Sibabale Jojo
+1. Sibabale Joja
 2. Liwa Dladloti
 3. Charné Banger
 4. Thabang Gideon Magaola
