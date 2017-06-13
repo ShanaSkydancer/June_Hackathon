@@ -1,5 +1,6 @@
 'use strict';
 var express = require('express');
+var session = require('express-session');
 var exphbs = require('express-handlebars');
 var body_parser = require('body-parser');
 var flash = require('express-flash');
@@ -12,6 +13,14 @@ app.engine('handlebars', exphbs({
 }));
 app.set('view engine', 'handlebars');
 app.use(express.static('public'));
+
+app.use(session({
+  secret: 'keyboard cat',
+  resave: false,
+  saveUninitialized: true,
+  cookie: { secure: true }
+}));
+
 app.use(flash());
 
 app.listen(9000, function() {
