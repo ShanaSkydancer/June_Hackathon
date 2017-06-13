@@ -1,4 +1,4 @@
-html {
+form {
 background-color: black;
 }
 .jumoBg{
@@ -10,14 +10,22 @@ background-color: black;
   background-color: gold;
 }
 .sampleVideo{
-  border: 1px gold solid;
+  border: 2px gold solid;
   border-radius: 5px;
 }
 .telBtn{
-  background-color: black;
-  color: gold;
+  background-color: gold;
+  color: black;
   text-transform: uppercase;
   font-size: 1em;
+}
+.telBtn > a{
+  color: black;
+  text-decoration: none;
+}
+.telBtn > a:hover{
+  color: black;
+  text-decoration: none;
 }
 .category{
   border: 2px gold solid;
