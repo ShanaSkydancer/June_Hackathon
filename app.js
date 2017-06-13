@@ -61,7 +61,11 @@ app.post('/video', function (req, res) {
 
 //audio format
 app.post('/audio', function (req, res) {
-    res.render('format', {audio: audio});
+    res.render('format');
 });
 
 /* ***ADMIN*** */
+
+app.get('/filter', function (req, res) {
+	res.render('filter');
+});

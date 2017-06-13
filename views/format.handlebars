@@ -1,35 +1,199 @@
 <!DOCTYPE html>
-<html>
- <head>
+<form method="get">
+
+<head>
   <meta charset="utf-8">
   <title>Story Type</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-  <link rel="stylesheet" href="/css/bootstrap-theme.min.css" />
-  <link rel="stylesheet" href="/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="/css/app.css" />
-  </head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="/css/bootstrap-theme.min.css"/>
+<link rel="stylesheet" href="/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="/css/app.css"/>
+</head>
 
-  <body>
-    <div class="container">
+<body>
+  <div class="container">
+    <div class="row">
+      <nav class="navbar navbar-default navBg">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+            <a class="navbar-brand" href="/"><img class="image-responsive jumoBg" src="images/Jumo.png" alt=""></a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+              <li><a href="#">Link</a></li>
+              <li class="dropdown">
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul>
+              </li>
+            </ul>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                <li class=""><a href="#">Link <span class="sr-only">(current)</span></a></li>
+                <li><a href="#">Link</a></li>
+
+              </ul>
+
+              <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+          </div>
+          <!-- /.container-fluid -->
+      </nav>
+      </div>
+      <!-- media format options -->
       <div class="row">
         <!-- text media format -->
-        <div class=" glyphicon glyphicon-pencil col-md-6 mediaFormat">
-
-        </div>
         <!-- videos media format -->
-        <div class=" glyphicon glyphicon-pencil col-md-6 mediaFormat">
+        <div class=" col-md-6 mediaFormat">
+          <!-- Trigger the modal with a button -->
+          <h2 data-toggle="modal" data-target="#txt">Text</h2>
+          <!-- Trigger the modal with a button -->
+          <i data-toggle="modal" data-target="#txt" class="fa fa-pencil-square-o iconz"></i>
 
+          <!-- Modal -->
+          <div class="modal fade" id="txt" role="dialog">
+            <div class="modal-dialog">
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h5 class="modal-title text-center">Text Stories</h5>
+                </div>
+                <div class="modal-body">
+                  <a href="public/stories/story1.pdf"><p><i class="fa fa-sticky-note-o"></i> Story 1</p></a>
+                  <hr>
+                  <a href="#"><p><i class="fa fa-sticky-note-o"></i> Story 2</p></a>
+                  <hr>
+                  <a href="#"><p><i class="fa fa-sticky-note-o"></i> Story 3</p></a>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+        </div>
+        </div>
+        <!-- video media format -->
+        <div class=" col-md-6 mediaFormat">
+          <!-- Trigger the modal with a button -->
+          <h2 data-toggle="modal" data-target="#vid">Video</h2>
+          <!-- Trigger the modal with a button -->
+          <i data-toggle="modal" data-target="#vid" class="fa fa-video-camera iconz"></i>
+
+          <!-- Modal -->
+          <div class="modal fade" id="vid" role="dialog">
+            <div class="modal-dialog">
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title text-center">Video Stories</h4>
+                </div>
+                <div class="modal-body">
+                  <a href=""><p><i class = 'fa fa-file-video-o'></i> Video 1</p></a>
+                  <hr>
+                  <a href=""><p><i class = 'fa fa-file-video-o'></i> Video 2</p></a>
+                  <hr>
+                  <a href=""><p><i class = 'fa fa-file-video-o'></i> Video 3</p></a>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+        </div>
         </div>
       </div>
       <!-- row 2 of media formats  -->
       <div class="row">
         <!-- images media format -->
-        <div class="glyphicon glyphicon-facetime-video col-md-6 mediaFormat">
+        <div class=" col-md-6 mediaFormat">
+          <!-- Trigger the modal with a button -->
+          <h2 data-toggle="modal" data-target="#imgz">Images</h2>
+          <!-- Trigger the modal with a button -->
+          <i data-toggle="modal" data-target="#imgz" class="fa fa-picture-o iconz"></i>
 
+          <!-- Modal -->
+          <div class="modal fade" id="imgz" role="dialog">
+            <div class="modal-dialog">
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title text-center">Image Stories</h4>
+                </div>
+                <div class="modal-body">
+                  <a href = ''> <p><i class="fa fa-file-image-o"></i> Image 1</p> </a>
+                  <a href = ''> <p><i class="fa fa-file-image-o"></i> Image 2</p> </a>
+                  <a href = ''> <p><i class="fa fa-file-image-o"></i> Image 3</p> </a>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+        </div>
         </div>
         <!-- audio media format -->
-        <div class="fa fa-microphone col-md-6 mediaFormat">
+        <div class=" col-md-6 mediaFormat">
+          <!-- Trigger the modal with a button -->
+          <h2 data-toggle="modal" data-target="#aud">Audio</h2>
+          <!-- Trigger the modal with a button -->
+          <i data-toggle="modal" data-target="#aud" class="fa fa-microphone iconz"></i>
 
+          <!-- Modal -->
+          <div class="modal fade" id="aud" role="dialog">
+            <div class="modal-dialog">
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title text-center">Audio Stories</h4>
+                </div>
+                <div class="modal-body">
+                  <a href=""><p><i class="fa fa-headphones"></i> Audio 1</p> </a>
+                  <hr>
+                  <a href=""><p><i class="fa fa-headphones"></i> Audio 2</p> </a>
+                  <hr>
+                  <a href=""><p><i class="fa fa-headphones"></i> Audio 3</p> </a>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+        </div>
         </div>
       </div>
 
@@ -57,4 +221,4 @@
 
       </body>
 
-</html>
+</form>

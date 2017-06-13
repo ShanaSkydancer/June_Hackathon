@@ -1,0 +1,82 @@
+<form method="get" action="/filter" >
+  <head>
+    <meta charset="utf-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="/css/app.css"/>
+    <title>Filter Stories</title>
+  </head>
+  <body>
+<div class="container">
+  <div class="row">
+    <nav class="navbar navbar-default navBg">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+  <span class="sr-only">Toggle navigation</span>
+  <span class="icon-bar"></span>
+  <span class="icon-bar"></span>
+  <span class="icon-bar"></span>
+</button>
+          <a class="navbar-brand" href="/"><img class="image-responsive jumoBg" src="images/Jumo.png" alt=""></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+            <form action="/filter" method="get">
+              <li><a href="/filter">Admin</a></li>
+            </form>
+            </li>
+          </ul>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+              <li><a href="#">Link</a></li>
+
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+              <li class="dropdown">
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </div>
+  </nav>
+  </div>
+  <!-- search input -->
+  <div class="row">
+    <h3><input class="searchInpt" type="text" name="" value="search"></h3>
+  </div>
+  <!-- user checkbox -->
+  <div class="row">
+    <h3><input class="chxbx" type="radio" name="chckbx" value=""> Business</h3>
+    <h3><input class="chxbx" type="radio" name="chckbx" value=""> Student</h3>
+    <h3><input class="chxbx" type="radio" name="chckbx" value=""> Mother</h3>
+    <h3><input class="chxbx" type="radio" name="chckbx" value=""> Father</h3>
+    <h3><input class="chxbx" type="radio" name="chckbx" value=""> Youth</h3>
+    <h3><input class="chxbx" type="radio" name="chckbx" value=""> Other</h3>
+  </div><br>
+  <div class="row">
+    <button class="btn telBtn"type="submit" name="button">View Stories</button>
+  </div>
+</div>
+  </body>
+</form>

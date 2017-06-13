@@ -1,49 +1,81 @@
 form {
-background-color: black;
-height: 100%;
-margin: auto;
+  background-color: black;
+  height: 100%;
+  margin: auto;
   background-repeat: no-repeat;
 }
-.container-fluid {
-background-color: lightgrey;
+
+h2 {
+  color: white;
+  cursor: pointer;
 }
-.jumoBg{
+
+.container-fluid {
+  background-color: lightgrey;
+}
+
+.jumoBg {
   margin-top: -15px;
   height: 50px;
   widht: 50px;
 }
-.navBg{
+
+i {
+  text-align: center;
+  cursor: pointer;
+}
+
+.navBg {
   background-color: gold;
 }
-.sampleVideo{
+
+.sampleVideo {
   border: 2px gold solid;
   border-radius: 5px;
 }
-.telBtn{
+
+.telBtn {
   background-color: gold;
   color: black;
   text-transform: uppercase;
   font-size: 1em;
 }
-.telBtn > a{
+
+.telBtn>a {
   color: black;
   text-decoration: none;
 }
-.telBtn > a:hover{
+
+.telBtn>a:hover {
   color: black;
   text-decoration: none;
 }
-.category{
+
+.category {
   border: 2px gold solid;
   color: white;
   background-color: black;
   border-radius: 10px;
   height: 100px;
 }
-h3 > a {
+
+input[type='radio'] {
+    transform: scale(1.2);
+}
+.searchInpt {
+    border: 1px solid gold;
+    border-radius: 4px;
+}
+
+h3 {
   color: white;
 }
-h3 > a:hover {
+
+h3>a {
+  color: white;
+}
+
+h3>a:hover {
   color: white;
   text-decoration: none;
 }
@@ -54,4 +86,14 @@ h3 > a:hover {
 
 .error {
   color: red;
+}
+
+.mediaFormat {
+  border: 2px gold solid;
+  border-radius: 10px;
+}
+
+.iconz {
+  font-size: 5em;
+  color: gold;
 }
