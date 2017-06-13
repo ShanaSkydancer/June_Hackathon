@@ -1,5 +1,5 @@
 # June Hackathon
-## Team Awesome
+## Team Super Saiyan
 
 # Our solution:
 Create a webapp for Jumo users to be able to share their stories.
@@ -19,7 +19,7 @@ The Jumo admin will be able to filter through stories and access data based off 
 By allowing Jumo users to tell their story in different platforms, Jumo will be able to get a better understanding of who they give micro loans to and why the Jumo user wants to get the loan. Jumo will then be able to better empathise with their customers and by getting this information they can produce a better product for their customers.
 
 
-### Team Awesome members:
+### Team Super Saiyan members:
 1. Sibabale Joja
 2. Liwa Dladloti
 3. Charné Banger
