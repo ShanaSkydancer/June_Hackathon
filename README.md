@@ -20,20 +20,20 @@ By allowing Jumo users to tell their story in different platforms, Jumo will be 
 
 ## Planning
 
-![Alt text](/Planning_Images/DSC_0901.JPGraw=true "Optional Title")
-![Alt text](/Planning_Images/DSC_0902.JPGraw=true "Optional Title")
-![Alt text](/Planning_Images/DSC_0903.JPGraw=true "Optional Title")
-![Alt text](/Planning_Images/DSC_0907.JPGraw=true "Optional Title")
-![Alt text](/Planning_Images/DSC_0908.JPGraw=true "Optional Title")
-![Alt text](/Planning_Images/DSC_0909.JPGraw=true "Optional Title")
-![Alt text](/Planning_Images/DSC_0910.JPGraw=true "Optional Title")
-![Alt text](/Planning_Images/DSC_0911.JPGraw=true "Optional Title")
-![Alt text](/Planning_Images/DSC_0912.JPGraw=true "Optional Title")
-![Alt text](/Planning_Images/DSC_0913.JPGraw=true "Optional Title")
-![Alt text](/Planning_Images/DSC_0914.JPGraw=true "Optional Title")
-![Alt text](/Planning_Images/DSC_0915.JPGraw=true "Optional Title")
-![Alt text](/Planning_Images/DSC_0916.JPGraw=true "Optional Title")
-![Alt text](/Planning_Images/DSC_0917.JPGraw=true "Optional Title")
+![Hachathon Planning 1](https://github.com/ShanaSkydancer/June_Hackathon/blob/master/Planning_Images/DSC_0901.JPG)
+![Hachathon Planning 2](https://github.com/ShanaSkydancer/June_Hackathon/blob/master/Planning_Images/DSC_0902.JPG)
+![Hachathon Planning 3](https://github.com/ShanaSkydancer/June_Hackathon/blob/master/Planning_Images/DSC_0903.JPG)
+![Hachathon Planning 4](https://github.com/ShanaSkydancer/June_Hackathon/blob/master/Planning_Images/DSC_0907.JPG)
+![Hachathon Planning 5](https://github.com/ShanaSkydancer/June_Hackathon/blob/master/Planning_Images/DSC_0908.JPG)
+![Hachathon Planning 6](https://github.com/ShanaSkydancer/June_Hackathon/blob/master/Planning_Images/DSC_0909.JPG)
+![Hachathon Planning 7](https://github.com/ShanaSkydancer/June_Hackathon/blob/master/Planning_Images/DSC_0910.JPG)
+![Hachathon Planning 8](https://github.com/ShanaSkydancer/June_Hackathon/blob/master/Planning_Images/DSC_0911.JPG)
+![Hachathon Planning 9](https://github.com/ShanaSkydancer/June_Hackathon/blob/master/Planning_Images/DSC_0912.JPG)
+![Hachathon Planning 10](https://github.com/ShanaSkydancer/June_Hackathon/blob/master/Planning_Images/DSC_0913.JPG)
+![Hachathon Planning 11](https://github.com/ShanaSkydancer/June_Hackathon/blob/master/Planning_Images/DSC_0914.JPG)
+![Hachathon Planning 12](https://github.com/ShanaSkydancer/June_Hackathon/blob/master/Planning_Images/DSC_0915.JPG)
+![Hachathon Planning 13](https://github.com/ShanaSkydancer/June_Hackathon/blob/master/Planning_Images/DSC_0916.JPG)
+![Hachathon Planning 14](https://github.com/ShanaSkydancer/June_Hackathon/blob/master/Planning_Images/DSC_0917.JPG)
 
 ### Team Super Saiyan members:
 1. Sibabale Joja
