@@ -36,10 +36,15 @@ app.get('/', function(req, res) {
 /* ***USER*** */
 
 //category page
+<<<<<<< HEAD
+app.post('/category', function (req, res) {
+    res.render('category');
+=======
 app.post('/category', function(req, res) {
 	req.flash('info', 'All categories have been selected!');
 	req.flash('error', 'Please select the categories!');
 	res.render('reasons');
+>>>>>>> b7f1d8dd9cbc7ef2fcbdb268de456b6c222c09c9
 });
 
 //story format page
