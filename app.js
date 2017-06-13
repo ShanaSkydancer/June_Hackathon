@@ -37,7 +37,7 @@ app.post('/reasons', function (req, res){
 	req.flash('info', 'All categories have been selected!');
 	req.flash('error', 'Please select the categories!');
 	res.render('reasons');
-}
+});
 
 //story format page
 app.post('/format', function (req, res) {
