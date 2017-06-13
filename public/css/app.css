@@ -1,6 +1,9 @@
 form {
 background-color: black;
 }
+.container-fluid {
+background-color: lightgrey;
+}
 .jumoBg{
   margin-top: -15px;
   height: 50px;
