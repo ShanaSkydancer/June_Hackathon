@@ -22,7 +22,7 @@ app.get('/', function (req, res) {
 
 //category page
 app.post('/category', function (req, res) {
-    res.render('category');
+    res.render('reasons');
 });
 
 //story format page
