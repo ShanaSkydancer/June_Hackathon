@@ -1,0 +1,25 @@
+{
+  "name": "june_hackathon",
+  "version": "1.0.0",
+  "description": "# Our solution: Create a webapp for Jumo users to be able to share their stories. Jumo admin will them be able to access the stories via specific categories.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShanaSkydancer/June_Hackathon.git"
+  },
+  "author": "Super Saiyan",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "express-handlebars": "^3.0.0",
+    "express-flash": "0.0.2"
+  },
+    "bugs": {
+    "url": "https://github.com/ShanaSkydancer/June_Hackathon/issues"
+  },
+  "homepage": "https://github.com/ShanaSkydancer/June_Hackathon#readme"
+}
