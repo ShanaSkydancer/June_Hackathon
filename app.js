@@ -6,9 +6,10 @@ var app = express();
 app.use(body_parser.urlencoded({ extended: false}));
 app.engine('handlebars', exphbs({defaultLayout: 'main'}));
 app.set('view engine', 'handlebars');
+app.use(express.static('public'));
 
 app.listen(9000, function () {
-	console.log('Server running on port 3000');
+	console.log('Server running on port 9000');
 });
 
 
