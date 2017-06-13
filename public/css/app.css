@@ -1,5 +1,7 @@
 form {
 background-color: black;
+height: 100%;
+margin: auto;
 }
 .container-fluid {
 background-color: lightgrey;
@@ -44,4 +46,6 @@ h3 > a:hover {
   color: white;
   text-decoration: none;
 }
-.
+.mediaFormat {
+
+}
