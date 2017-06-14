@@ -4,7 +4,8 @@
   "description": "# Our solution: Create a webapp for Jumo users to be able to share their stories. Jumo admin will them be able to access the stories via specific categories.",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" "node app.js"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,9 @@
   },
   "bugs": {
     "url": "https://github.com/ShanaSkydancer/June_Hackathon/issues"
+  },
+  "engines": {
+    "node": "4.2.6"
   },
   "homepage": "https://github.com/ShanaSkydancer/June_Hackathon#readme"
 }
