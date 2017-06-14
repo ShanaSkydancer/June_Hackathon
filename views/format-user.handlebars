@@ -11,7 +11,9 @@
     <link rel="stylesheet" href="/css/bootstrap-theme.min.css" />
     <link rel="stylesheet" href="/css/bootstrap.min.css" />
     <link rel="stylesheet" href="/css/app.css" />
-    <!--  -->
+    <!-- handlebars -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.min.js"></script>
+    <!-- google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
   </head>
 
@@ -110,22 +112,22 @@
               <!-- Modal content-->
               <div class="modal-content">
                 <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal">&times;</button>
-                  <h4 class="modal-title text-center">Upload Video</h4>
+                  <button class="close" data-dismiss="modal">&times;</button>
+                 <h4 class="modal-title text-center">Upload Video</h4>
                 </div>
                 <div class="modal-body">
                   <i class="fa fa-upload iconz"></i><br>
-                  <button class="btn" type="submit" name="button">Upload</button><br><br>
-                  <video class="vidz" src="/videos/JUMO.mp4" type="video/mp4" autostart="false" preload="none" autoplay poster="posterimage.jpg">
+                  <!-- <input class="btnz" type="file" name="pic" accept="video/*"><br> -->
+                  <!-- <form class="" action="/format-user" method="post"> -->
+                    <button class="btn" type="submit" name="button">Upload</button><br><br>
+                  <!-- </form> -->
 
-                  </video>
-                  <video class="vidz" src="/videos/Why JUMO.mp4" type="video/mp4" autostart="false" preload="none" autoplay poster="posterimage.jpg">
+                  <video class="vidz" src="/videos/JUMO.mp4" type="video/mp4" autostart="false" preload="none" autoplay poster="posterimage.jpg"> </video>
+                  <video class="vidz" src="/videos/Why JUMO.mp4" type="video/mp4" autostart="false" preload="none" autoplay poster="posterimage.jpg"> </video>
+                  <video class="vidz" src="/videos/JUMO People.mp4" type="video/mp4" autostart="false" preload="none" autoplay poster="posterimage.jpg"> </video>
 
-                  </video>
-                  <video class="vidz" src="/videos/JUMO People.mp4" type="video/mp4" autostart="false" preload="none" autoplay poster="posterimage.jpg">
-
-                  </video>
                 </div>
+
                 <div class="modal-footer">
                   <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
                 </div>
@@ -154,7 +156,9 @@
                   </div>
                   <div class="modal-body">
                     <i class="fa fa-upload iconz"></i><br>
-                    <button class="btn" type="submit" name="button">Upload</button>
+                    <!-- <input class="btnz" id="uploadInput" type="file" name="pic" accept="image/*"><br> -->
+
+                    <button class="btn" id="vidUploadBtn" type="submit" name="button">Upload</button>
                     <hr>
                     <div class="row">
                       <img src="/images/women1.jpg" class="women" alt="">
@@ -270,5 +274,5 @@
         {{/if}}
 
       </body> -->
-
+<!-- <script src="/fileUpload.js" charset="utf-8"></script> -->
 </form>

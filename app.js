@@ -78,6 +78,12 @@ app.post('/audio', function (req, res) {
     res.render('format');
 });
 
+app.post('/format-user', function (req, res) {
+  const reader = new FileReader();
+
+  res.render('format-user', {videoUpload: reader})
+})
+
 /* ***ADMIN*** */
 
 app.get('/filter', function (req, res) {
