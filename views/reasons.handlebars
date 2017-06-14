@@ -1,21 +1,48 @@
-<form>
+<form action="" method="">
+
   <head>
     <meta charset="utf-8">
     <title>Reasons</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/app.css" />
   </head>
+
   <body>
 
-    {{#if messages.info}}
-    <div class="info">
-      {{messages.info}}
-    </div>
-  {{/if}}
+    <div class="container">
+      <div class="row reasons">
+        <h2><i class="fa fa-graduation-cap"></i>Education</h2>
+      </div>
+      <div class="row reasons">
+        <h2><i class="fa fa-building-o"></i>Business</h2>
+      </div>
+      <div class="row reasons">
+        <h2><i class="fa fa-cutlery"></i>Food</h2>
+      </div>
+      <div class="row reasons">
+        <h2><i class="fa fa-gamepad"></i>Entertainment</h2>
+      </div>
+      <div class="row reasons">
+        <h2><i class="fa fa-car"></i>Vehicle</h2>
+      </div>
 
-  {{#if messages.error}}
-    <div class="error">
-      {{messages.error}}
-    </div>
-  {{/if}}
+    <!-- {{#if messages.info}}
+      <div class="info">
+        {{messages.info}}
+      </div>
+    {{/if}}
 
+    {{#if messages.error}}
+      <div class="error">
+        {{messages.error}}
+      </div>
+    {{/if}} -->
+
+  </div>
   </body>
 </form>
