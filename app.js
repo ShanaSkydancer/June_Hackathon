@@ -19,10 +19,12 @@ app.use(session({
 
 app.use(flash());
 
-app.listen(9000, function () {
-	console.log('Server running on port 9000');
+app.listen(80, function () {
+	console.log('Server running on port 80');
 });
 
+//Port and environment variable
+app.set('port', (process.env.PORT || 80));
 
 //home page
 app.get('/', function (req, res) {
