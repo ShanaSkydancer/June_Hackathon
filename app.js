@@ -56,6 +56,9 @@ app.get('/web/viewer.html', function (req, res) {
     res.sendFile(path.join(__dirname + '/web/story1.pdf'));
 });
 
+app.get('/format-admin', function (req, res) {
+    res.render('format-admin');
+});
 //text format
 app.post('/text', function (req, res) {
     res.render('format');

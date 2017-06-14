@@ -16,7 +16,9 @@ h2 {
 .container-fluid {
   background-color: lightgrey;
 }
-
+li a:hover {
+    background-color: gold;
+}
 .jumoBg {
   margin-top: -15px;
   height: 50px;
@@ -36,7 +38,17 @@ i {
   border: 2px gold solid;
   border-radius: 5px;
 }
-
+/*.logoutBtn{
+    background-color: orange;
+    border-radius: 5px;
+}
+.logoutBtn:hover{
+    background-color: orange;
+    border-radius: 5px;
+}*/
+button{
+    font-size: 2em;
+}
 .telBtn {
   background-color: gold;
   color: black;
@@ -66,6 +78,16 @@ i {
   color:black;
   background-color: gold;
   padding: 5px;
+  border-radius: 10px;
+
+}
+.catTitle1{
+  color:black;
+  background-color: gold;
+  padding: 5px;
+  width: 200px;
+  border-radius: 10px;
+
 }
 
 input[type='radio'] {
