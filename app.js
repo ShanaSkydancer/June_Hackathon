@@ -40,10 +40,13 @@ app.post('/reasons', function (req, res){
 });
 
 //story format page
-app.get('/format', function (req, res) {
-    res.render('format');
+app.get('/format-user', function (req, res) {
+    res.render('format-user');
 });
 
+app.get('/format-admin', function (req, res) {
+    res.render('format-admin');
+});
 //text format
 app.post('/text', function (req, res) {
     res.render('format');
