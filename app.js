@@ -19,12 +19,8 @@ app.use(session({
 
 app.use(flash());
 
-app.listen(80, function () {
-	console.log('Server running on port 80');
-});
-
 //Port and environment variable
-app.set('port', (process.env.PORT || 80));
+app.set('port', (process.env.PORT || 9000));
 
 //home page
 app.get('/', function (req, res) {
@@ -83,3 +79,10 @@ app.post('/audio', function (req, res) {
 app.get('/filter', function (req, res) {
 	res.render('filter');
 });
+
+//Hosts my server
+ var server = app.listen(9000, function() {
+   var host = server.address().address;
+   var port = server.address().port;
+   console.log('Greetings webapp listening at http://%s:%s', host, port);
+ });
