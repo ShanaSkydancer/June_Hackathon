@@ -18,7 +18,8 @@
     "express": "^4.15.2",
     "express-flash": "git://github.com/RGBboy/express-flash.git",
     "express-handlebars": "^3.0.0",
-    "express-session": "^1.15.3"
+    "express-session": "^1.15.3",
+    "nodejs": "0.0.0"
   },
   "bugs": {
     "url": "https://github.com/ShanaSkydancer/June_Hackathon/issues"
