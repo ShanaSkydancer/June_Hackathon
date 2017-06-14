@@ -2,7 +2,7 @@ form {
   background-color: black;
   background-size: cover;
   height: 150%;
-  margin: auto;
+  /*margin: auto;*/
   background-repeat: no-repeat;
   font-family: 'Nunito', sans-serif;
   min-height: 100vh;
@@ -20,9 +20,8 @@ li a:hover {
     background-color: gold;
 }
 .jumoBg {
-  margin-top: -15px;
+  margin-top:-15px;
   height: 50px;
-  widht: 50px;
 }
 
 i {
@@ -89,6 +88,12 @@ button{
   border-radius: 10px;
 
 }
+.catTitle1{
+  color:black;
+  width: 40%;
+  background-color: gold;
+  padding: 5px;
+}
 
 input[type='radio'] {
     transform: scale(1.2);
@@ -122,6 +127,10 @@ h3>a:hover {
 .mediaFormat {
   border: 2px gold solid;
   border-radius: 10px;
+  /*width: 90%;*/
+  /*align-items: center;*/
+  /*margin-left: 5px;*/
+  /*margin-right: 5px;*/
 }
 
 .iconz {
