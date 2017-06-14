@@ -97,3 +97,19 @@ h3>a:hover {
   font-size: 5em;
   color: gold;
 }
+textarea {
+  width: 30em;
+  height: 10em;
+}
+.women {
+  width: 200px;
+  height: 100px;
+  border: 3px gold solid;
+  border-radius: 2em;
+}
+.women1 {
+  width: 170px;
+  height: 100px;
+  border-radius: 2em;
+  border: 3px gold solid;
+}
