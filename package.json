@@ -13,6 +13,7 @@
   "author": "Super Saiyan",
   "license": "ISC",
   "dependencies": {
+    "angular-pdf": "^2.0.0",
     "body-parser": "^1.17.1",
     "express": "^4.15.2",
     "express-flash": "git://github.com/RGBboy/express-flash.git",

@@ -47,6 +47,11 @@ app.get('/format-user', function (req, res) {
 app.get('/format-admin', function (req, res) {
     res.render('format-admin');
 });
+
+app.get('/results', function (req, res) {
+    res.render('results');
+});
+
 //text format
 app.post('/text', function (req, res) {
     res.render('format');
