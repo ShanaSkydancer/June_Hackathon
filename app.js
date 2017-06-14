@@ -9,7 +9,7 @@ app.use(body_parser.urlencoded({ extended: false}));
 app.engine('handlebars', exphbs({defaultLayout: 'main'}));
 app.set('view engine', 'handlebars');
 app.use(express.static('public'));
-
+var path = require('path')
 app.use(session({
   secret: 'keyboard cat',
   resave: false,
@@ -50,6 +50,10 @@ app.get('/format-admin', function (req, res) {
 
 app.get('/results', function (req, res) {
     res.render('results');
+});
+
+app.get('/web/viewer.html', function (req, res) {
+    res.sendFile(path.join(__dirname + '/web/story11.pdf'));
 });
 
 //text format
