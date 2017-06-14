@@ -81,7 +81,7 @@ app.get('/filter', function (req, res) {
 });
 
 //Hosts my server
- var server = app.listen(9000, function() {
+ var server = app.listen(app.get("port"), function() {
    var host = server.address().address;
    var port = server.address().port;
    console.log('Greetings webapp listening at http://%s:%s', host, port);
