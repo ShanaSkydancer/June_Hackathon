@@ -5,6 +5,7 @@ form {
   margin: auto;
   background-repeat: no-repeat;
   font-family: 'Nunito', sans-serif;
+  min-height: 100vh;
 }
 
 h2 {
