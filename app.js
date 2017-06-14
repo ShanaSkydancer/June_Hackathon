@@ -52,6 +52,7 @@ app.get('/results', function (req, res) {
 
 app.get('/web/viewer.html', function (req, res) {
     res.sendFile(path.join(__dirname + '/web/story1.pdf'));
+    res.sendFile(path.join(__dirname + '/web/JUMO People.mp4'));
 });
 
 app.get('/format-admin', function (req, res) {
