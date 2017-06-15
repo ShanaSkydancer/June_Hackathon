@@ -59,7 +59,7 @@ app.get('/web/viewer.html', function (req, res) {
 });
 
 app.get('/display', function (req, res) {
-    res.sendFile(path.join(__dirname + '/web/JUMO.mp4'));
+    res.sendFile(path.join(__dirname + '/public/videos/Why JUMO.mp4'));
 });
 
 
